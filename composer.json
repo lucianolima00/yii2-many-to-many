@@ -1,0 +1,26 @@
+{
+    "name": "lucianolima00/yii2-many-to-many",
+    "description": "ManyToMany Relation for Yii2 Framework",
+    "keywords": ["yii2", "many-to-many", "relation", "behavior", "validator"],
+    "homepage": "https://github.com/lucianolima00/yii2-many-to-many",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luciano Lima",
+            "email": "lucianolima122123@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.1",
+        "phpunit/dbunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "lucianolima00\\ManyToMany\\": ""
+        }
+    }
+}
